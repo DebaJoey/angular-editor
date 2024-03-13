@@ -5,7 +5,7 @@ module.exports = {
   devtool: 'source-map',
   entry: path.join(src, 'main.ts'),
   output: {
-    path: path.join(process.cwd(), 'dist', 'my-editor'),
+    path: path.join(process.cwd(), 'dist', 'angular-editor'),
     filename: 'shell.js'
   },
   module: {
